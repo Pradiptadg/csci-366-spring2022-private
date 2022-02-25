@@ -4,4 +4,42 @@
 
 ;; CODE   =====================================
 
+loop    LDA TOTAL
+        ADD ONE
+        OUT
+        STA TOTAL
+        ADD ONE
+        OUT
+        STA TOTAL
+        ADD ONE
+        OUT 
+        ADD ONE
+        OUT
+        ADD ONE
+        OUT
+        ADD ONE
+        OUT
+        ADD ONE 
+        OUT 
+        ADD ONE
+        OUT
+        ADD ONE
+        OUT
+        ADD ONE
+        OUT
+COUNTER DAT 0
+TOTAL   DAT 0
+ONE     DAT 1
+TEN     DAT 10
+
 ;; OUTPUT =====================================
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
